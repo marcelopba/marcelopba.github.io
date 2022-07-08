@@ -1,22 +1,22 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: brown;
+  background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: white;
+  background-color: #f6b319;
   border-radius: 0;
   border: 0;
 }
 
-#logo-img { 
-  background: url('..///images/check.png') no-repeat;
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
   width: 150px;
   height: 150px;
-  margin: 10px 15px 10px 0px;
+  margin: 10px 15px 10px 0;
 }
 
 .navbar-brand {
@@ -24,7 +24,7 @@ body {
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: darkgreen;
+  color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -113,6 +113,7 @@ body {
 /* END FOOTER */
 
 
+
 /* HOME PAGE */
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
@@ -131,11 +132,11 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
-  background: url('../images/putanesca.jpg') no-repeat;
+  background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url('../images/carne.jpg') no-repeat;
+  background: url('../images/specials-tile.jpg') no-repeat;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
@@ -150,7 +151,6 @@ body {
   color: #fff;
   opacity: .8;
 }
-
 /* END HOME PAGE */
 
 /* MENU CATEGORIES PAGE */
@@ -182,6 +182,7 @@ body {
   margin-bottom: 50px;
 }
 /* END MENU CATEGORIES PAGE */
+
 /* SINGLE CATEGORY PAGE */
 .menu-item-tile {
   margin-bottom: 25px;
@@ -228,6 +229,7 @@ h3.menu-item-title {
 }
 /* END SINGLE CATEGORY PAGE */
 
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
@@ -240,23 +242,20 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('..///images/check.png') no-repeat;
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
   }
-  
-/* End Header */
+  /* End Header */
 
-/* Home Page */
-.container .jumbotron {
-  background: url('../images/jumbotron_1200.jpg') no-repeat;
-  height: 558px;
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 558px;
   }
   /* End Home Page */
 }
-
-
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -323,17 +322,6 @@ h3.menu-item-title {
   .panel-footer section hr {
     width: 50%;
   }
-  /* Footer */
-  .panel-footer section {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
-  }
-  .panel-footer section hr {
-    width: 50%;
-  }
   /* End Footer */
 
   /* Home Page */
@@ -345,6 +333,7 @@ h3.menu-item-title {
     width: 360px;
     margin: 0 auto 15px;
   }
+
   .menu-item-photo {
     margin-right: auto;
   }
@@ -356,7 +345,8 @@ h3.menu-item-title {
   }
 }
 
-  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
@@ -379,5 +369,4 @@ h3.menu-item-title {
     float: left;
     width: 100%;
   }
-
 }
